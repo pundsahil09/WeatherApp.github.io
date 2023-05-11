@@ -9,7 +9,7 @@ body{
 }
 
 .card{
-    width: 90%;
+    width: 100%;
     max-width: 480px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     
@@ -21,7 +21,7 @@ body{
 
 
     color: #fff;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -30,7 +30,7 @@ body{
 .search{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -42,7 +42,7 @@ body{
     padding: 10px 25px;
     height: 60px;
     border-radius: 35px;
-    flex: 1;
+    flex: 0;
     margin-right: 16px;
     font-size: 20px;
 }
@@ -54,6 +54,7 @@ body{
     width: 60px;
     height: 60px;
     cursor: pointer;
+    
 
 }
 .search button img{
